@@ -3239,6 +3239,8 @@ body {
     --h6-text-transform: unset;
 }
 
+
+
 .inline-title {
     text-transform: var(--inline-title-text-transform);
 }
@@ -5395,4 +5397,10 @@ body.colorful-checkbox li.svelte-sx5ktw.svelte-sx5ktw:nth-child(8n+8) .checkbox.
 body:not(.is-mobile):not(.mod-macos):not(.mod-windows):not(.mod-linux) .workspace::before,
 body:not(.is-mobile):not(.mod-macos):not(.mod-windows):not(.mod-linux) .app-container::before {
     display: none !important;
+}
+
+/* loren  */
+.callout[data-callout="bug"] {
+    --callout-color: 10, 100, 250;
+    --callout-icon: lucide-bu !important;
 }
