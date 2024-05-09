@@ -351,7 +351,7 @@ body {
     --color-accent-hsl-dark: var(--accent-h),
         var(--accent-s),
         var(--accent-l);
-    --color-accent-dark: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-dark: #0ba360;
     --color-accent-1-dark: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
     --color-accent-2-dark: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 3.8%));
     --color-accent-3-dark: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)));
@@ -3224,8 +3224,7 @@ body {
     --accent-dark-s: 25%;
     --accent-dark-l: 49%;
 
-
-
+    --color-accent-dark: #0ba360
 }
 
 body {
