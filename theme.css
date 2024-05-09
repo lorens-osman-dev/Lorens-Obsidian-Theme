@@ -340,9 +340,9 @@ body {
     --accent-h: var(--accent-dark-h);
     --accent-s: var(--accent-dark-s);
     --accent-l: var(--accent-dark-l);
-    --accent-dark-h: 232;
-    --accent-dark-s: 64%;
-    --accent-dark-l: 72%;
+    --accent-dark-h: 216;
+    --accent-dark-s: 25%;
+    --accent-dark-l: 49%;
     --color-accent-hsl: var(--color-accent-hsl-dark);
     --color-accent: var(--color-accent-dark);
     --color-accent-1: var(--color-accent-1-dark);
@@ -3220,9 +3220,7 @@ body {
     --radius-s: 0px;
     --radius-m: 2px;
     --radius-l: 4px;
-    --accent-dark-h: 216;
-    --accent-dark-s: 25%;
-    --accent-dark-l: 49%;
+
 
     --color-accent-dark: #0ba360
 }
