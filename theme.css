@@ -4708,7 +4708,7 @@ body {
 .css-settings-manager:not(.codeblock-style-customize) .markdown-rendered pre ::selection,
 .css-settings-manager:not(.codeblock-style-customize) .markdown-source-view.mod-cm6 .code-block-flair:hover,
 .css-settings-manager:not(.codeblock-style-customize) .markdown-rendered button.copy-code-button:hover {
-    background-color: hsl(from var(--code-normal) h s l / 20%);
+    background-color: : hsl(154, 87%, 34%);
 }
 
 .markdown-source-view.mod-cm6 .code-block-flair,
