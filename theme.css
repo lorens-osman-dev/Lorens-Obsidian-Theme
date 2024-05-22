@@ -3328,9 +3328,8 @@ h2,
 }
 
 body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-2::before {
-    margin-right: 0;
+    margin-inline-start: 0;
     position: absolute;
-    left: 0;
     content: " ";
     display: inline-block;
     width: 18px;
@@ -3343,9 +3342,8 @@ body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-2::before {
 
 body:not(.heading-indicator-off) .markdown-rendered>h2::before,
 body:not(.heading-indicator-off) .markdown-preview-sizer>div>h2::before {
-    margin-right: 0;
+    margin-inline-start: 0;
     position: absolute;
-    left: 10px;
     content: " ";
     display: inline-block;
     width: 18px;
@@ -3395,8 +3393,8 @@ h3,
 }
 
 body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-3::before {
-    margin-right: 0;
-    left: 0;
+    margin-inline-start: 0;
+
     position: absolute;
     content: " ";
     display: inline-block;
@@ -3410,8 +3408,7 @@ body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-3::before {
 
 body:not(.heading-indicator-off) .markdown-rendered>h3::before,
 body:not(.heading-indicator-off) .markdown-preview-sizer>div>h3::before {
-    margin-right: 0;
-    left: 10px;
+    margin-inline-start: 0px;
     position: absolute;
     content: " ";
     display: inline-block;
@@ -3460,8 +3457,8 @@ h4,
 }
 
 body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-4::before {
-    margin-right: 0;
-    left: 0;
+    margin-inline-start: 0;
+
     position: absolute;
     content: " ";
     display: inline-block;
@@ -3475,8 +3472,7 @@ body:not(.heading-indicator-off) .is-live-preview .HyperMD-header-4::before {
 
 body:not(.heading-indicator-off) .markdown-rendered>h4::before,
 body:not(.heading-indicator-off) .markdown-preview-sizer>div>h4::before {
-    margin-right: 0;
-    left: 10px;
+    margin-inline-start: 0px;
 
     position: absolute;
     content: " ";
