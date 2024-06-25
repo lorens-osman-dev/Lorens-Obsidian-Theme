@@ -1287,7 +1287,18 @@ body.is-frameless.is-hidden-frameless:not(.qe-hide-breadcrumbs) .status-bar,
 body:not(.is-frameless):not(.qe-hide-breadcrumbs) .status-bar {
     position: var(--status-bar-position);
 }
+/* ====== ribbon====== */
+body:not(.is-mobile):not(.show-ribbon) .workspace {
+    margin-left: 16px;
+}
 
+body:not(.is-mobile):not(.show-ribbon) .workspace::before {
+    width: 100%;
+}
+
+.mod-macos:not(.show-ribbon) {
+    --frame-left-space: calc(80px - 16px);
+}
 
 /* tab */
 /* tab layout */
@@ -1356,7 +1367,7 @@ body:not(.hider-sidebar-buttons) .workspace-tab-header-tab-list:has(+.sidebar-to
 
 .mod-left-split .workspace-tab-header-container-inner,
 .mod-right-split .workspace-tab-header-container-inner {
-    padding: 6px;
+    padding: 6px 0;
     margin: 0px;
     gap: 2px;
     height: 44px;
@@ -5459,4 +5470,16 @@ button.mod-cta {
 
 ::selection {
     background-color: #0ba3605c !important;
+}
+
+.workspace-tabs.mod-top.mod-top-left-space .workspace-tab-header-container{
+   padding-left: 0 !important;
+}
+
+.menu-item.tappable.mod-checked .svg-icon.lucide-check{
+    color: #0ba360;
+}
+.menu{
+        border-radius: var(--radius-l);
+
 }
